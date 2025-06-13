@@ -1,0 +1,383 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: grey;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoholder {
+  width: 120px;
+  height: 60px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: poppins;
+}
+.navsholder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 480px;
+  height: 60px;
+  margin-left: 70px;
+}
+.navs {
+  font-size: 20px;
+  font-weight: 300;
+}
+.navs a {
+  text-decoration: none;
+  color: black;
+}
+.navs:hover {
+  cursor: pointer;
+  transition: all 450ms;
+  color: red;
+}
+.buttonholder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+.Loginbutton {
+  width: 80px;
+  height: 40px;
+  border: none;
+  background-color: white;
+  border-radius: 6px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.Loginbutton:hover {
+  background-color: #fffaec;
+  cursor: pointer;
+  transition: all 450ms;
+}
+.Loginbutton a {
+  text-decoration: none;
+  color: black;
+}
+.GetStarted {
+  width: 90px;
+  height: 40px;
+  border: 1px solid red;
+  background-color: red;
+  border-radius: 6px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  /* color:red; */
+}
+.GetStarted:hover {
+  background-color: rgba(255, 0, 0, 0.89);
+  cursor: pointer;
+  transition: all 450ms;
+}
+.GetStarted a {
+  text-decoration: none;
+  color: white;
+}
+.hero1 {
+  width: 100%;
+  height: 350px;
+  background-color: #fffaec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 8px;
+  flex-direction: column;
+  line-height: 40px;
+}
+.hero1 h1 {
+  font-size: 60px;
+  font-weight: 900;
+  font-family: "Inter";
+  line-height: 40px;
+  color: black;
+  text-align: center;
+  line-height: 50px;
+}
+.hero1 p {
+  font-size: 22px;
+  color: #878684;
+  text-align: center;
+  font-family: system-ui;
+}
+.ser {
+  color: rgba(255, 0, 0, 0.852);
+}
+.hero2 {
+  background-color: white;
+  width: 100%;
+  height: 1000px;
+}
+.search-box {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 10px 15px;
+  width: 380px;
+  font-size: 16px;
+  /* outline:none; */
+}
+.select {
+  padding: 8px 12px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #cccc;
+  cursor: pointer;
+}
+select:focus {
+  border-color: black;
+  outline: none;
+}
+.inputbox {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 30px;
+  margin-left: 20px;
+}
+.selectors1 {
+  border: 1px solid grey;
+  border-radius: 10px;
+  /* width:100px;
+  height: 700px; */
+}
+.selectors {
+  display: flex;
+  /* justify-content: space-between; */
+  gap: 30px;
+}
+.property-grid {
+  display: grid;
+  /* grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); */
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.property-card {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.2s ease;
+  width: 390px;
+  height: 400px;
+}
+
+.property-card:hover {
+  transform: translateY(-5px);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.status {
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.status.available {
+  background-color: #28a745;
+}
+.status.leased {
+  background-color: #dc3545;
+}
+
+.category {
+  padding: 3px 8px;
+  border-radius: 12px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.category.residential {
+  background-color: #ff4c4c;
+}
+.category.commercial {
+  background-color: #ff0066;
+}
+
+.property-title {
+  margin: 10px 0 5px;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 200px;
+}
+
+.location {
+  color: #666;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.details {
+  color: #333;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-bottom: 12px;
+}
+
+.features span {
+  background-color: #fff0bf;
+  padding: 5px 8px;
+  border-radius: 5px;
+  font-size: 12px;
+  margin-top: 10px;
+}
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #dc3545;
+  /* margin-bottom: 200px; 
+  margin-right: 200px;  */
+  margin-top: 10px;
+}
+.view-button {
+  background-color: #ff4c4c;
+  color: white;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  /* margin-bottom: 10px; */
+  margin-left: 250px;
+}
+.view-button:hover {
+  background-color: #e63e3e;
+}
+.hero3 {
+  width: 100%;
+  height: 400px;
+  background-color: #ff1e58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 8px;
+  flex-direction: column;
+  line-height: 40px;
+}
+.hero3 h1 {
+  font-family: "Inter";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+.hero3 p {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  font-family: system-ui;
+}
+.holder {
+  display: flex;
+  width: 30%;
+  gap: 10px;
+}
+.consult {
+  width: 70%;
+  height: 45px;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.consult:hover {
+  background-color: rgba(255, 255, 255, 0.689);
+  cursor: pointer;
+  transition: all 450ms;
+}
+.consult a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: red;
+}
+.serve {
+  width: 70%;
+  height: 45px;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.serve:hover {
+  background-color: rgba(255, 0, 0, 0.372);
+  cursor: pointer;
+  transition: all 450ms;
+  color: white;
+}
+.serve a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+.footer{
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+}
+.side1{
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:300px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.side2{
+  display:flex;
+  justify-content: space-evenly;
+  align-items: center;
+ margin-right: 190px;
+  gap:300px ;
+} 
+.side p{
+  font-weight: 900;
+  font-size: 50px;
+}

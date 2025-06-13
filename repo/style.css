@@ -1,0 +1,90 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.body {
+  width: 100%;
+  height: 100vh;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: rgb(13, 46, 123);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headerholder {
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoholder {
+  width: 100px;
+  height: 60px;
+  background-color: white;
+}
+.navsholder {
+  width: 400px;
+  height: 60px;
+  background-color: white;
+}
+.actionbutton {
+  width: 100px;
+  height: 60px;
+  background-color: white;
+}
+.heroholder {
+  width: 100%;
+  height: 500px;
+  background-color: lightgray;
+  display: flex;
+}
+.lefthero {
+  width: 50%;
+  height: 100%;
+  background-color: red;
+}
+.righthero {
+  width: 50%;
+  height: 100%;
+  background-color: rgb(0, 255, 72);
+}
+
+@media (max-width: 500px) {
+  .navsholder {
+    display: none;
+  }
+  .heroholder {
+    display: flex;
+    flex-direction: column;
+  }
+  .lefthero {
+    width: 100%;
+  }
+  .righthero {
+    width: 100%;
+  }
+}
+@media (min-width: 501px) and(max-width:768px) {
+  .navsholder {
+    width: 300px;
+  }
+  .heroholder {
+    display: flex;
+    flex-direction: column;
+  }
+  .lefthero {
+    width: 100%;
+  }
+  .righthero {
+    width: 100%;
+  }
+}
+@media (min-width: 501px) {
+  .actionbutton {
+    display: none;
+  }
+}

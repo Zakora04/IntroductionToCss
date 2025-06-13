@@ -1,0 +1,467 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.body {
+  width: 100%;
+  height: 100vh;
+  background-color: grey;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoholder {
+  width: 120px;
+  height: 60px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: poppins;
+}
+.navsholder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 480px;
+  height: 60px;
+  margin-left: 70px;
+}
+.navs {
+  font-size: 20px;
+  font-weight: 300;
+}
+.navs a {
+  text-decoration: none;
+  color: black;
+}
+.navs:hover {
+  cursor: pointer;
+  transition: all 450ms;
+  color: red;
+}
+.buttonholder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+.Loginbutton {
+  width: 80px;
+  height: 40px;
+  border: none;
+  background-color: white;
+  border-radius: 6px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.Loginbutton:hover {
+  background-color: #fffaec;
+  cursor: pointer;
+  transition: all 450ms;
+}
+.Loginbutton a {
+  text-decoration: none;
+  color: black;
+}
+.GetStarted {
+  width: 90px;
+  height: 40px;
+  border: 1px solid red;
+  background-color: red;
+  border-radius: 6px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  /* color:red; */
+}
+.GetStarted:hover {
+  background-color: rgba(255, 0, 0, 0.89);
+  cursor: pointer;
+  transition: all 450ms;
+  color: red;
+}
+.GetStarted a {
+  text-decoration: none;
+  color: white;
+}
+.hero1 {
+  width: 100%;
+  height: 700px;
+  background-color: #fffaec;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.lefthero {
+  width: 45%;
+  height: 600px;
+  background-color: #fffaec;
+  margin-right: 30px;
+}
+.bb {
+  color: black;
+}
+.lefthero1 {
+  display: flex;
+  margin-left: 15px;
+  font-family: "Inter";
+  font-size: 65px;
+  font-weight: 1000;
+  line-height: 60px;
+  color: rgba(255, 0, 0, 0.705);
+  line-height: 60px;
+  margin-top: 190px;
+  gap: 10px;
+}
+.lefthero2 {
+  font-size: 25px;
+  display: flex;
+  margin-left: 15px;
+  margin-top: 20px;
+}
+.bns {
+  height: 50px;
+  width: 400px;
+  display: flex;
+  align-items: center;
+  margin-left: 15px;
+  /* margin-bottom: 30px; */
+  gap: 10px;
+  margin-top: 40px;
+}
+.leftherobutton1 {
+  width: 40%;
+  height: 50px;
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.leftherobutton1:hover {
+  background-color: rgba(255, 0, 0, 0.877);
+  cursor: pointer;
+  transition: all 450ms;
+  color: white;
+}
+.leftherobutton1 a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+.leftherobutton2 {
+  width: 40%;
+  height: 50px;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.righthero {
+  width: 45%;
+  height: 600px;
+  background-color: black;
+  margin-right: 30px;
+}
+.leftherobutton2 {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+}
+.leftherobutton2 a {
+  text-decoration: none;
+  color: black;
+  font-size: 15px;
+  font-weight: 700;
+}
+.hero2 {
+  width: 100%;
+  height: 550px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.text1 {
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 70px;
+}
+.text1 p {
+  font-size: 200;
+}
+.card1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 190px;
+  width: 100%;
+  gap: 400px;
+  /* margin-right: 5px; */
+}
+.card1 h2 {
+  font-family: "inter";
+  font-weight: 600;
+  font-size: 40px;
+}
+.card1 p {
+  font-weight: 600;
+  color: grey;
+  font-size: large;
+}
+.hero3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  background-color: #fffaec;
+  line-height: 60px;
+}
+
+.righthero1 {
+  width: 45%;
+  height: 600px;
+  background-color: #fffaec;
+  gap: 20px;
+  font-family: "inter";
+  font-size: 300;
+  font-weight: 600;
+}
+.righthero h1 {
+  line-height: 60px;
+}
+.sec {
+  gap: 200px;
+}
+.lefthero3 {
+  width: 45%;
+  height: 600px;
+  background-color: black;
+}
+
+.core-values {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #fefefe;
+}
+
+.core-values h2 {
+  font-size: 32px;
+  margin-bottom: 10px;
+}
+
+.core-values .subtitle {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.values-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+.value-card {
+  background-color: #fff0f5;
+  border-radius: 10px;
+  padding: 20px;
+  width: 250px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+}
+
+.value-card:hover {
+  transform: translateY(-5px);
+}
+
+.value-card img {
+  width: 40px;
+  margin-bottom: 15px;
+}
+
+.value-card h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #cc3366;
+}
+
+.value-card p {
+  font-size: 14px;
+  color: #555;
+}
+.why-choose {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  border-top: 1px solid #eee;
+}
+
+.why-choose h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.why-choose .subtitle {
+  font-size: 16px;
+  color: #777;
+  margin-bottom: 40px;
+}
+
+.features-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.features-grid ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  max-width: 400px;
+  text-align: left;
+}
+
+.features-grid li {
+  font-size: 16px;
+  margin-bottom: 15px;
+  padding-left: 25px;
+  position: relative;
+  color: #333;
+}
+
+.features-grid li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #cc3366;
+  font-weight: bold;
+}
+.hero4 {
+  width: 100%;
+  height: 400px;
+  background-color: #ff1e58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 8px;
+  flex-direction: column;
+  line-height: 40px;
+}
+.hero4 h1 {
+  font-family: "Inter";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+.hero4 p {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  font-family: system-ui;
+}
+.holder {
+  display: flex;
+  width: 30%;
+  gap: 10px;
+}
+.consult {
+  width: 70%;
+  height: 45px;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.consult:hover {
+  background-color: rgba(255, 255, 255, 0.689);
+  cursor: pointer;
+  transition: all 450ms;
+}
+.consult a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: red;
+}
+.serve {
+  width: 70%;
+  height: 45px;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.serve:hover {
+  background-color: rgba(255, 0, 0, 0.372);
+  cursor: pointer;
+  transition: all 450ms;
+  color: white;
+}
+.serve a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+}
+.side1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 300px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.side2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 190px;
+  gap: 300px;
+}
+.side p {
+  font-weight: 900;
+  font-size: 50px;
+}

@@ -1,0 +1,559 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-color: grey;
+}
+.header {
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logoholder {
+  width: 120px;
+  height: 60px;
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: poppins;
+}
+.navsholder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 480px;
+  height: 60px;
+  margin-left: 70px;
+}
+.navs {
+  font-size: 20px;
+  font-weight: 300;
+}
+.navs a {
+  text-decoration: none;
+  color: black;
+}
+.navs:hover {
+  cursor: pointer;
+  transition: all 450ms;
+  color: red;
+}
+.buttonholder {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 50px;
+}
+.Loginbutton {
+  width: 80px;
+  height: 40px;
+  border: none;
+  background-color: white;
+  border-radius: 6px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.Loginbutton:hover {
+  background-color: #fffaec;
+  cursor: pointer;
+  transition: all 450ms;
+}
+.Loginbutton a {
+  text-decoration: none;
+  color: black;
+}
+.GetStarted {
+  width: 90px;
+  height: 40px;
+  border: 1px solid red;
+  background-color: red;
+  border-radius: 6px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  /* color:red; */
+}
+.GetStarted:hover {
+  background-color: rgba(255, 0, 0, 0.89);
+  cursor: pointer;
+  transition: all 450ms;
+}
+.GetStarted a {
+  text-decoration: none;
+  color: white;
+}
+.hero1 {
+  width: 100%;
+  height: 350px;
+  background-color: #fffaec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 8px;
+  flex-direction: column;
+  line-height: 40px;
+}
+.hero1 h1 {
+  font-size: 60px;
+  font-weight: 900;
+  font-family: "Inter";
+  line-height: 40px;
+  color: black;
+  text-align: center;
+  line-height: 50px;
+}
+.hero1 p {
+  font-size: 22px;
+  color: #878684;
+  text-align: center;
+  font-family: system-ui;
+}
+.ser {
+  color: rgba(255, 0, 0, 0.852);
+}
+.hero2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  background-color: white;
+  line-height: 30px;
+}
+.lefthero {
+  width: 45%;
+  height: 400px;
+  background-color: white;
+  gap: 20px;
+  /* line-height: 30px; */
+  font-family: "inter";
+  font-size: 300;
+  font-weight: 600;
+}
+.lefthero1 {
+  /* gap:30px; */
+  width: 60%;
+  height: 100px;
+  margin-left: 70px;
+}
+.lefthero2 {
+  width: 60%;
+  height: 100px;
+  margin-left: 30px;
+}
+.righthero {
+  width: 45%;
+  height: 600px;
+  background-color: black;
+}
+.btn {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  margin-left: 50px;
+  align-items: center;
+}
+.leftherobutton1 {
+  width: 27%;
+  height: 45px;
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 70px;
+  margin-right: 490px;
+}
+.leftherobutton1:hover {
+  background-color: rgba(255, 0, 0, 0.877);
+  cursor: pointer;
+  transition: all 450ms;
+  color: white;
+}
+.leftherobutton1 a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+.hero3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  background-color:white;
+  line-height: 30px;
+}
+.lefthero3 {
+  width: 45%;
+  height: 600px;
+  background-color: black;
+}
+.righthero1 {
+  width: 45%;
+  height: 400px;
+  background-color: white;
+  gap: 20px;
+  /* line-height: 30px; */
+  font-family: "inter";
+  font-size: 300;
+  font-weight: 600;
+}
+.righthero2 {
+  width: 60%;
+  height: 100px;
+  margin-left: 70px;
+}
+.righthero3 {
+  width: 60%;
+  height: 100px;
+  margin-left: 30px;
+}
+.but {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  margin-left: 50px;
+  align-items: center;
+}
+.rightherobutton2 {
+  width: 27%;
+  height: 45px;
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 70px;
+  margin-right: 490px;
+}
+.rightherobutton2:hover {
+  background-color: rgba(255, 0, 0, 0.877);
+  cursor: pointer;
+  transition: all 450ms;
+  color: white;
+}
+.rightherobutton2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+.hero4 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  background-color: white;
+  line-height: 30px;
+}
+.lefthero4 {
+  width: 45%;
+  height: 400px;
+  background-color: white;
+  gap: 20px;
+  /* line-height: 30px; */
+  font-family: "inter";
+  font-size: 300;
+  font-weight: 600;
+}
+.lefthero5 {
+  /* gap:30px; */
+  width: 60%;
+  height: 100px;
+  margin-left: 70px;
+}
+.lefthero6 {
+  width: 60%;
+  height: 100px;
+  margin-left: 30px;
+}
+.righthero4 {
+  width: 45%;
+  height: 600px;
+  background-color: black;
+}
+.btnn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+  align-items: center;
+}
+.leftherobutton2 {
+  width: 27%;
+  height: 45px;
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 70px;
+  margin-right: 490px;
+}
+.leftherobutton2:hover {
+  background-color: rgba(255, 0, 0, 0.877);
+  cursor: pointer;
+  transition: all 450ms;
+  color: white;
+}
+.leftherobutton2 a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+.hero5 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 700px;
+  background-color:white;
+  line-height: 30px;
+}
+.righthero5 {
+  width: 45%;
+  height: 400px;
+  background-color: white;
+  gap: 20px;
+  /* line-height: 30px; */
+  font-family: "inter";
+  font-size: 300;
+  font-weight: 600;
+}
+.lefthero7 {
+  width: 45%;
+  height: 600px;
+  background-color: black;
+}
+.righthero6 {
+  width: 60%;
+  height: 100px;
+  margin-left: 70px;
+}
+.righthero7 {
+  width: 60%;
+  height: 100px;
+  margin-left: 30px;
+}
+.btnn {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  margin-left: 50px;
+  align-items: center;
+}
+.rightherobutton3 {
+  width: 27%;
+  height: 45px;
+  border: none;
+  background-color: red;
+  color: white;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 70px;
+  margin-right: 490px;
+}
+.rightherobutton3:hover {
+  background-color: rgba(255, 0, 0, 0.877);
+  cursor: pointer;
+  transition: all 450ms;
+  color: white;
+}
+.rightherobutton3 a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+.hero6 {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #fffcf2;
+}
+.hero6h {
+  font-family: system-ui;
+  font-size: 20px;
+  width: 100%;
+  height: 100px;
+}
+.hero6 h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.hero6 p {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+
+.boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 450px;
+  width: 75%;
+  margin-top: 30px;
+  flex-wrap: wrap;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  width: 300px;
+  padding: 0px 20px 0px 20px;
+  border: 1px solid grey;
+  background-color: white;
+  border-radius: 10px;
+}
+.box h2 {
+  font-size: 25px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400;
+  color: black;
+  text-align: left;
+}
+.box p {
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  color: rgba(0, 0, 0, 0.609);
+  display: flex;
+  text-align: center;
+}
+.hero7 {
+  width: 100%;
+  height: 400px;
+  background-color: #ff1e58;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 8px;
+  flex-direction: column;
+  line-height: 40px;
+}
+.hero7 h1 {
+  font-family: "Inter";
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 40px;
+  color: white;
+  text-align: center;
+  line-height: 50px;
+}
+.hero7 p {
+  font-size: 22px;
+  color: white;
+  text-align: center;
+  font-family: system-ui;
+}
+.holder {
+  display: flex;
+  width: 30%;
+  gap: 10px;
+}
+.consult {
+  width: 70%;
+  height: 45px;
+  border: none;
+  background-color: white;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.consult:hover {
+  background-color: rgba(255, 255, 255, 0.689);
+  cursor: pointer;
+  transition: all 450ms;
+}
+.consult a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 700;
+  color: red;
+}
+.serve {
+  width: 70%;
+  height: 45px;
+  border: none;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  font-family: sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+}
+.serve:hover {
+  background-color: rgba(255, 0, 0, 0.372);
+  cursor: pointer;
+  transition: all 450ms;
+  color: white;
+}
+.serve a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+  font-weight: 700;
+}
+.footer {
+  width: 100%;
+  height: 400px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color:white;
+}
+.side1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 300px;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+.side2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-right: 190px;
+  gap: 300px;
+}
+.side p {
+  font-weight: 900;
+  font-size: 50px;
+}

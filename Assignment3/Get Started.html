@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Create an account - EstateElite</title>
+    <link rel="stylesheet" href="./Get Started.css" />
+  </head>
+  <body>
+    <div class="hero">
+      <div class="secondhero">
+        <div class="card">
+          <div class="property">Join EstateElite Today</div>
+          <p>
+            Create an account to access our comprehensive property management
+            services and tools.
+          </p>
+          <h3>
+            Property performance tracking<br />
+            Financial reporting<br />
+            Maintenance requests<br />
+            Tenant communication
+          </h3>
+        </div>
+      </div>
+      <div class="firsthero">
+        <div class="herobox">
+          <div class="logo">📑</div>
+          <h1>Create an account</h1>
+          <p>Sign up to get started with EstateElite</p>
+
+          <div class="form">
+            <label>Full Name</label>
+            <input type="text" placeholder="John Doe" required />
+
+            <label>Email</label>
+            <input type="email" placeholder="name@example.com" required />
+
+            <label>Password</label>
+            <input type="password" placeholder="........" required />
+
+            <label>Account Type</label>
+            <div class="radio-group">
+              <label class="ent">
+                <input type="radio" name="accountType" value="owner" checked />
+                <span class="radio-label"
+                  >Property Owner
+                  <small>(I own properties that need management)</small></span
+                >
+              </label>
+
+              <label>
+                <input type="radio" name="accountType" value="tenant" />
+                <span class="radio-label"
+                  >Tenant
+                  <small
+                    >(I rent a property managed by EstateElite)</small
+                  ></span
+                >
+              </label>
+            </div>
+
+            <div class="terms">
+              <input type="checkbox" required />
+              <span
+                >I agree to the <a href="#">Terms of Service</a> and
+                <a href="#">Privacy Policy</a></span
+              >
+            </div>
+          </div>
+          <button type="submit" class="create-btn">Create account</button>
+
+          <div class="divider">Or continue with</div>
+
+          <div class="social-buttons">
+            <button type="button" class="google-btn">Google</button>
+            <button type="button" class="facebook-btn">Facebook</button>
+          </div>
+
+          <p class="signin-link">
+            Already have an account? <a href="#">Sign in</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

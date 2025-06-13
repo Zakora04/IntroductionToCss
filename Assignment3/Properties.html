@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EstateElite</title>
+    <link rel="stylesheet" href="./Properties.css" />
+  </head>
+  <body class="body">
+    <div class="header">
+      <div class="logoholder">EstateElite</div>
+      <div class="navsholder">
+        <div class="navs"><a href="./Home1.html">Home</a></div>
+        <div class="navs"><a href="./Services.html">Services</a></div>
+        <div class="navs">Properties</div>
+        <div class="navs"><a href="./About.html">About</a></div>
+        <div class="navs"><a href="./Contact Us.html">Contact Us</a></div>
+      </div>
+      <div class="buttonholder">
+        <button class="Loginbutton"><a href="./Login.html">Log In</a></button>
+        <button class="GetStarted">
+          <a href="./Get Started.html">Get Started</a>
+        </button>
+      </div>
+    </div>
+    <div class="hero1">
+      <h1>Our <span class="ser">Properties</span></h1>
+      <p>
+        Explore our diverse portfolio of residential, commercial, and industrial
+        properties across<br />
+        prime locations.
+      </p>
+    </div>
+    <div class="hero2">
+      <div class="inputbox">
+        <input type="text" placeholder="Search...." class="search-box" />
+        <div class="selectors">
+          <div class="selectors1">
+            <select id="types" name="All Types">
+              <option value="All Types">All Types</option>
+              <option value="Residentia">Residential</option>
+              <option value="Commercial">Commercial</option>
+              <option value="Industrial">Industrial</option>
+            </select>
+          </div>
+          <div class="selectors2">
+            <select id="status" name="All Status">
+              <option value="All Status">All Status</option>
+              <option value="Available">Available</option>
+              <option value="Leased">Leased</option>
+            </select>
+          </div>
+        </div>
+      </div>
+      <div class="property-grid">
+        <!-- Property Card -->
+        <div class="property-card">
+          <div class="card-header">
+            <span class="status available">Available</span>
+            <span class="category residential">Residential</span>
+          </div>
+          <h3 class="property-title">Luxury Downtown Apartment</h3>
+          <p class="location">📍 Financial District</p>
+          <p class="details">🛏 2 &nbsp; 🛁 2 &nbsp; 📐 2,000 sqft</p>
+          <div class="features">
+            <span>Gym</span>
+            <span>Pool</span>
+            <span>Parking</span>
+            <span>+1 more</span>
+          </div>
+          <!-- <div class="one"> -->
+          <p class="price">$ $2,500/month</p>
+          <!-- </div> -->
+          <button class="view-button">View Details</button>
+        </div>
+        <div class="property-card">
+          <div class="card-header">
+            <span class="status leased">Leased</span>
+            <span class="category commercial">Commercial</span>
+          </div>
+          <h3 class="property-title">Modern Office Space</h3>
+          <p class="location">📍 Tech Hub</p>
+          <p class="details">🛏 2 &nbsp; 🛁 3 &nbsp; 📐 3,000 sqft</p>
+          <div class="features">
+            <span>Conference Room</span>
+            <span>Parking</span>
+            <span>High Speed Internet</span>
+            <span>+1 more</span>
+          </div>
+          <p class="price">$ $4,800/month</p>
+          <button class="view-button">View Details</button>
+        </div>
+        <div class="property-card">
+          <div class="card-header">
+            <span class="status leased">Leased</span>
+            <span class="category commercial">Commercial</span>
+          </div>
+          <h3 class="property-title">Retail Storefront</h3>
+          <p class="location">📍Shopping District</p>
+          <p class="details">🛁 1 &nbsp; 📐 1,800 sqft</p>
+          <div class="features">
+            <span>Street Facing</span>
+            <span>High Traffic</span>
+            <span>Storage</span>
+            <span>+1 more</span>
+          </div>
+          <p class="price">$ $3,200/month</p>
+          <button class="view-button">View Details</button>
+        </div>
+        <div class="property-card">
+          <div class="card-header">
+            <span class="status leased">Leased</span>
+            <span class="category commercial">Commercial</span>
+          </div>
+          <h3 class="property-title">Family Townhouse</h3>
+          <p class="location">📍Suburban Area</p>
+          <p class="details">🛏 3 &nbsp; 🛁 2.5 &nbsp; 📐 1,800 sqft</p>
+          <div class="features">
+            <span>Garage</span>
+            <span>Yard</span>
+            <span>School District </span>
+            <span>+1 more</span>
+          </div>
+          <p class="price">$ $2,800/month</p>
+          <button class="view-button">View Details</button>
+        </div>
+        <div class="property-card">
+          <div class="card-header">
+            <span class="status leased">Leased</span>
+            <span class="category commercial">Commercial</span>
+          </div>
+          <h3 class="property-title">Studio Loft</h3>
+          <p class="location">📍Arts District</p>
+          <p class="details">🛏 1 &nbsp; 🛁 1 &nbsp; 📐 800 sqft</p>
+          <div class="features">
+            <span>High Ceilings </span>
+            <span>Exposed Brick</span>
+            <span>Natural Light </span>
+            <span>+1 more</span>
+          </div>
+          <p class="price">$ $4,800/month</p>
+          <button class="view-button">View Details</button>
+        </div>
+        <div class="property-card">
+          <div class="card-header">
+            <span class="status leased">Leased</span>
+            <span class="category commercial">Commercial</span>
+          </div>
+          <h3 class="property-title">Warehouse Space</h3>
+          <p class="location">📍Industrial Zone</p>
+          <p class="details">🛏 2 &nbsp; 🛁 3 &nbsp; 📐 3,000 sqft</p>
+          <div class="features">
+            <span>Loading Dock</span>
+            <span>High Ceilings</span>
+            <span>Office Space</span>
+            <span>+1 more</span>
+          </div>
+          <p class="price">$ $5,500/month</p>
+          <button class="view-button">View Details</button>
+        </div>
+      </div>
+    </div>
+    <div class="hero3">
+      <h1>Have a Property to Manage?</h1>
+      <p>
+        Let us help you maximize your property's potential with our
+        comprehensive <br/>management services.
+      </p>
+      <div class="holder">
+        <button class="consult">
+          <a href="./Contact Us.html">Get Free Assessment</a>
+        </button>
+        <button class="serve">
+          <a href="./Services.html">Our Services</a>
+        </button>
+      </div>
+    </div>
+    <div class="footer">
+      <div class="side1">
+      <div class="1">
+        <h2>EstateElite</h2>
+        <p>
+          Professional property management<br />
+          solutions for residential and commercial <br />real estate.
+        </p>
+      </div>
+      <div class="2">
+        <h3>Services</h3>
+        Property Leasing<br />
+        Financial Management<br />
+        Tenant Relations<br />
+        Maintenance<br />
+        Compliance
+      </div>
+      </div>
+      <div class="side1">
+      <div class="ne">
+        <p><h3>Company</h3>
+        About Us<br />
+        Our Team<br />
+        Careers<br />
+        Blog<br />
+        Press</p>
+      </div>
+      <div class="4">
+        <h3>Legal</h3>
+        Privacy Policy<br />
+        Terms of Service<br />
+        Cookie Policy<br />
+        GDPR
+      </div>
+      </div>
+    </div>
+  </body>
+</html>
